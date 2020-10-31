@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.15)
+SET(PROJ_NAME run)
+PROJECT(${PROJ_NAME})
+
+ADD_DEFINITIONS(-std=c++17)
+SET(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+LINK_DIRECTORIES(
+	/usr/local/lib/
+)
+
+INCLUDE_DIRECTORIES(
+	/usr/local/include
+)
+
+ADD_EXECUTABLE(
+	${PROJ_NAME}
+	main.cc
+	hart.cc
+	gaussianhermite.cc
+)
+
+
