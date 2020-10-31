@@ -1,8 +1,6 @@
 # Estimation of Gaussian CDF
 
-```math
-\Phi(a) = \int_{-\infty}^{a} e^{\frac{-x^2}{2}} dx
-```
+<img src="https://render.githubusercontent.com/render/math?math=\Phi(a) = \int_{-\infty}^{a} e^{\frac{-x^2}{2}} dx">
 
 ## Hart Algorithm
 
