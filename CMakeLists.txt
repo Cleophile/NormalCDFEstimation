@@ -18,6 +18,7 @@ ADD_EXECUTABLE(
 	main.cc
 	hart.cc
 	gaussianhermite.cc
+	multinormal.cc
 )
 
 
